@@ -1,19 +1,26 @@
 {
   "name": "react-awesome-paginate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React awesome paginate is a modern, typescript based pagination component. You can use it in your project.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/types/Pagination.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c"
   },
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
-  "keywords": ["react", "pagination", "typescript", "component"],
+  "keywords": [
+    "react",
+    "pagination",
+    "typescript",
+    "component"
+  ],
   "license": "MIT",
   "author": "Sukanta Bala",
   "devDependencies": {
@@ -23,6 +30,7 @@
     "@types/react-dom": "^19.1.6",
     "rollup": "^4.45.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.36.0",
     "tslib": "^2.8.1",
     "typescript": "^5.8.3"

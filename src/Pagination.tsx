@@ -1,4 +1,5 @@
 import React from "react";
+import "./Pagination.css"; // Import raw CSS
 
 interface PaginationProps {
   currentPage: number;
@@ -45,26 +46,26 @@ const Pagination: React.FC<PaginationProps> = ({
   const pageNumbers = getPageNumbers();
 
   return (
-    <div className="flex justify-center items-center mt-4 space-x-2">
+    <div className="react-awesome-paginate__container">
       <button
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
-        className="px-3 py-1 border rounded disabled:opacity-50"
+        className="react-awesome-paginate__button"
       >
         Prev
       </button>
 
       {pageNumbers.map((page, idx) =>
         page === "..." ? (
-          <span key={`ellipsis-${idx}`} className="px-3 py-1 text-gray-500">
+          <span key={`ellipsis-${idx}`} className="react-awesome-paginate__ellipsis">
             ...
           </span>
         ) : (
           <button
             key={`page-${page}`}
             onClick={() => onPageChange(page as number)}
-            className={`px-3 py-1 border rounded ${
-              currentPage === page ? "bg-blue-500 text-white" : ""
+            className={`react-awesome-paginate__button ${
+              currentPage === page ? "active" : ""
             }`}
           >
             {page}
@@ -75,7 +76,7 @@ const Pagination: React.FC<PaginationProps> = ({
       <button
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
-        className="px-3 py-1 border rounded disabled:opacity-50"
+        className="react-awesome-paginate__button"
       >
         Next
       </button>
