@@ -9,7 +9,6 @@ Install `react-awesome-paginate` with [npm](https://www.npmjs.com/package/react-
 
 ```
 npm i react-awesome-paginate --save
-
 ```
 
 # Usage
