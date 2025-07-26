@@ -5,7 +5,12 @@ React awesome paginate is a modern, typescript based pagination component. You c
 
 # Installation
 
-> npm i react-awesome-paginate --save
+Install `react-awesome-paginate` with [npm](https://www.npmjs.com/package/react-awesome-paginate):
+
+```
+npm i react-awesome-paginate --save
+
+```
 
 # Usage
 
@@ -40,3 +45,14 @@ export default ExampleComponent;
 
 ## Props
 
+| Name     | Type     | Status   | Description |
+|----------|----------|----------|----------|
+| `currentPage`| Number | Required | `currentPage` number. Default value 1 |
+| `totalPages`| Number | Required | `totalPages` number. Default value 1 |
+
+
+## Events
+
+| Name     | Type     | Status   | Description |
+|----------|----------|----------|----------|
+| `onPageChange`| Function | Required | `onPageChange` is a Function. When event is triggerd it gives triggered page no. as a argument. |
