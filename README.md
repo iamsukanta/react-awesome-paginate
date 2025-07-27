@@ -10,12 +10,33 @@ Install `react-awesome-paginate` with [npm](https://www.npmjs.com/package/react-
 ```
 npm i react-awesome-paginate --save
 ```
+## Preview
+![Pagination preview](img/sample-pagination.png)
 
-# Usage
+# Import and Usage rule in your component
+
+```
+import Pagination from 'react-awesome-paginate'; // Import npm module
+import 'react-awesome-paginate/dist/index.css'; // Import CSS (You can override)
+
+
+// In your page
+<Pagination
+    currentPage=1
+    totalPages=20
+    onPageChange={(pageNo: number) => console.log(pageNo)}
+/>
+```
+
+# Detail Usage
 
 ```
 import React, { useState } from "React";
 import Pagination from 'react-awesome-paginate';
+
+// For CSS Styling, you have to import this below file (You can override, if you want.)
+
+import 'react-awesome-paginate/dist/index.css';
 
 const ExampleComponent = () => {
     const [currentPage, setCurrentPage] = useState(1);

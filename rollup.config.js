@@ -24,7 +24,7 @@ module.exports = {
     commonjs(),
     typescript({ useTsconfigDeclarationDir: true }),
     postcss({
-      extract: true,
+      extract: 'index.css',
       minimize: true,
       sourceMap: true,
     })
