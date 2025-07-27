@@ -63,16 +63,25 @@ export default ExampleComponent;
 
 ```
 
+## Events
+
+| Name     | Type     | Status   | Description |
+|----------|----------|----------|----------|
+| `onPageChange`| Function | Required | `onPageChange` is a Function. When event is triggerd it gives triggered page no. as a argument. |
+
+
 ## Props
 
 | Name     | Type     | Status   | Description |
 |----------|----------|----------|----------|
 | `currentPage`| Number | Required | `currentPage` number. Default value 1 |
 | `totalPages`| Number | Required | `totalPages` number. Default value 1 |
+| `previousLabel`| String | Optional | `previousLabel` for previous button. Default value `Previous` |
+| `nextLabel`| String | Optional | `nextLabel` for next button. Default value `Next` |
+| `paginationTheme`| String | Optional | `paginationTheme` for next button. Default value `default`. There are four types of theme, you can use, these are `default`, `circular`, `classic`, `compact`  |
+| `activeClassName`| String | Optional | `activeClassName` for active button. Default value `active`. You can add your own custom class & give custom style in your component |
+| `containerClassName`| String | Optional | `containerClassName` for active button. Default value `None`. You can add your own custom container class & give custom style in your component |
+| `prevClassName`| String | Optional | `prevClassName` for active button. Default value `None`. You can add your own custom class & give custom style to previous button in your component |
+| `nextClassName`| String | Optional | `nextClassName` for active button. Default value `None`. You can add your own custom class & give custom style to next button in your component |
 
 
-## Events
-
-| Name     | Type     | Status   | Description |
-|----------|----------|----------|----------|
-| `onPageChange`| Function | Required | `onPageChange` is a Function. When event is triggerd it gives triggered page no. as a argument. |

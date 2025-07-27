@@ -1,39 +1,116 @@
 .react-awesome-paginate__container {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  margin-top: 1rem;
-  gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.5rem
+}
+
+.react-awesome-paginate__pages {
+  display: flex;
   flex-wrap: wrap;
 }
 
 .react-awesome-paginate__button {
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  background-color: white;
-  border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
-  transition: background-color 0.2s ease;
+  transition: background-color .2s ease;
 }
 
 .react-awesome-paginate__button:hover:not(:disabled) {
-  background-color: #f0f0f0;
+  background-color: #f0f0f0
 }
 
 .react-awesome-paginate__button:disabled {
-  opacity: 0.5;
   cursor: not-allowed;
+  opacity: .5
 }
 
 .react-awesome-paginate__button.active {
   background-color: #007bff;
-  color: white;
+  border-color: #007bff;
+  color: #fff
+}
+
+.react-awesome-paginate__button.active:hover {
+  background-color: #054d99;
   border-color: #007bff;
 }
 
-.react-awesome-paginate__ellipsis {
-  padding: 6px 12px;
+.react-awesome-paginate__more__button {
+  text-align: center;
   color: #999;
   font-size: 14px;
+  padding: 6px 12px;
+}
+
+/* Default theme styles */
+.react-awesome-paginate__default__container {
+  gap: 8px;
+}
+
+.react-awesome-paginate__default__pages {
+  gap: 8px;
+}
+
+.react-awesome-paginate__default__button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+}
+
+/* Circle theme styles */
+.react-awesome-paginate__circular__container {
+  gap: 8px;
+}
+
+.react-awesome-paginate__circular__pages {
+  gap: 8px;
+}
+
+.react-awesome-paginate__circular__button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  min-height: 34px;
+  min-width: 34px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: width 0.2s;
+}
+
+/* Classic theme styles */
+.react-awesome-paginate__classic__container {
+  gap: 8px;
+}
+
+.react-awesome-paginate__classic__pages {
+  gap: 8px;
+}
+
+.react-awesome-paginate__classic__button {
+  padding: 6px 12px;
+  font-weight: bold;
+  color: #007bff;
+  font: 16px;
+}
+
+.react-awesome-paginate__classic__more__button {
+  font-weight: bold;
+  color: #007bff;
+  font: 16px;
+}
+
+/* Compact theme styles */
+.react-awesome-paginate__compact__button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+}
+
+.react-awesome-paginate__compact__more__button {
+  border: 1px solid #ccc;
 }
