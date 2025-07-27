@@ -11,7 +11,18 @@ Install `react-awesome-paginate` with [npm](https://www.npmjs.com/package/react-
 npm i react-awesome-paginate --save
 ```
 ## Preview
-![Pagination preview](img/sample-pagination.png)
+
+### Default theme
+![Default Pagination preview](img/default-pagination.png)
+
+### Circular theme
+![Circular Pagination preview](img/circular-pagination.png)
+
+### Classic theme
+![Classic Pagination preview](img/classic-pagination.png)
+
+### Compact theme
+![Compact Pagination preview](img/compact-pagination.png)
 
 # Import and Usage rule in your component
 
@@ -78,6 +89,7 @@ export default ExampleComponent;
 | `totalPages`| Number | Required | `totalPages` number. Default value 1 |
 | `previousLabel`| String | Optional | `previousLabel` for previous button. Default value `Previous` |
 | `nextLabel`| String | Optional | `nextLabel` for next button. Default value `Next` |
+| `morePagesLabel`| String | Optional | `morePagesLabel` for break level. Default value `...` |
 | `paginationTheme`| String | Optional | `paginationTheme` for next button. Default value `default`. There are four types of theme, you can use, these are `default`, `circular`, `classic`, `compact`  |
 | `activeClassName`| String | Optional | `activeClassName` for active button. Default value `active`. You can add your own custom class & give custom style in your component |
 | `containerClassName`| String | Optional | `containerClassName` for active button. Default value `None`. You can add your own custom container class & give custom style in your component |
@@ -85,3 +97,8 @@ export default ExampleComponent;
 | `nextClassName`| String | Optional | `nextClassName` for active button. Default value `None`. You can add your own custom class & give custom style to next button in your component |
 
 
+###
+If you like this package please give me a star(*) in my [Github Repo](https://github.com/iamsukanta/react-awesome-paginate)
+
+##
+If you find any issue please please report here [Github Issues](https://github.com/iamsukanta/react-awesome-paginate/issues)
