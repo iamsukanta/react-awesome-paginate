@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/react-awesome-paginate.git"
+    "url": "https://github.com/iamsukanta/react-awesome-paginate.git"
   },
-  "homepage": "https://github.com/your-username/react-awesome-paginate#readme",
+  "homepage": "https://github.com/iamsukanta/react-awesome-paginate#readme",
   "bugs": {
-    "url": "https://github.com/your-username/react-awesome-paginate/issues"
+    "url": "https://github.com/iamsukanta/react-awesome-paginate/issues"
   },
   "peerDependencies": {
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
