@@ -10,7 +10,7 @@ Install `react-awesome-paginate` with [npm](https://www.npmjs.com/package/react-
 ```
 npm i react-awesome-paginate --save
 ```
-### Show demo [Codesandbox](https://codesandbox.io/p/sandbox/keen-elbakyan-35rmmg)
+### Props & Theme demo [Codesandbox](https://codesandbox.io/p/sandbox/keen-elbakyan-35rmmg)
 ### API demo [Codesandbox](https://35rmmg.csb.app/api-example)
 
 ## Preview
