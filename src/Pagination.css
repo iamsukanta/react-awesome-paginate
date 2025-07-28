@@ -9,8 +9,6 @@
 .react-awesome-paginate__pages {
   display: flex;
   flex-wrap: wrap;
-  background-color: none;
-  border: none
 }
 
 .react-awesome-paginate__button {
@@ -43,9 +41,11 @@
 
 .react-awesome-paginate__more__button {
   text-align: center;
-  color: #999;
+  color: #7e7d7d;
   font-size: 14px;
   padding: 6px 12px;
+  background-color: none;
+  border: none
 }
 
 /* Default theme styles */
