@@ -15,7 +15,7 @@
   cursor: pointer;
   font-size: 14px;
   transition: background-color .2s ease;
-  background-color: none;
+  background: none;
   border: none
 }
 
@@ -44,7 +44,7 @@
   color: #7e7d7d;
   font-size: 14px;
   padding: 6px 12px;
-  background-color: none;
+  background: none;
   border: none
 }
 
