@@ -6,6 +6,7 @@ React awesome paginate is a modern, typescript based pagination component. You c
 # Installation
 
 Install `react-awesome-paginate` with [npm](https://www.npmjs.com/package/react-awesome-paginate):
+### Show demo in [Codesandbox](https://codesandbox.io/p/sandbox/keen-elbakyan-35rmmg)
 
 ```
 npm i react-awesome-paginate --save

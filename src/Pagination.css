@@ -9,12 +9,16 @@
 .react-awesome-paginate__pages {
   display: flex;
   flex-wrap: wrap;
+  background-color: none;
+  border: none
 }
 
 .react-awesome-paginate__button {
   cursor: pointer;
   font-size: 14px;
   transition: background-color .2s ease;
+  background-color: none;
+  border: none
 }
 
 .react-awesome-paginate__button:hover:not(:disabled) {
