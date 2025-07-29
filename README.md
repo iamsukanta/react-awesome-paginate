@@ -1,5 +1,5 @@
 # react-awesome-paginate
-React awesome paginate is a modern, typescript based pagination component. You can use it in your project.
+React awesome paginate is a modern, lightweight, typescript based pagination component. You can use it in your project very easily. There are some predefined `theme` you can use it, in your component.
 
 [![NPM](https://nodei.co/npm/react-awesome-paginate.svg?color=red)](https://nodei.co/npm/react-awesome-paginate/)
 
@@ -10,8 +10,8 @@ Install `react-awesome-paginate` with [npm](https://www.npmjs.com/package/react-
 ```
 npm i react-awesome-paginate --save
 ```
-### Props & Theme demo [Codesandbox](https://codesandbox.io/p/sandbox/keen-elbakyan-35rmmg)
-### API demo [Codesandbox](https://35rmmg.csb.app/api-example)
+### Props & Theme demo: [Codesandbox](https://codesandbox.io/p/sandbox/keen-elbakyan-35rmmg)
+### API demo: [Codesandbox](https://35rmmg.csb.app/api-example)
 
 ## Preview
 
@@ -31,7 +31,7 @@ npm i react-awesome-paginate --save
 
 ```
 import Pagination from 'react-awesome-paginate'; // Import npm module
-import 'react-awesome-paginate/dist/index.css'; // Import CSS (You can override)
+import 'react-awesome-paginate/dist/index.css'; // Import CSS (You can override css styling easily.)
 
 
 // In your page
@@ -81,7 +81,7 @@ export default ExampleComponent;
 
 | Name     | Type     | Status   | Description |
 |----------|----------|----------|----------|
-| `onPageChange`| Function | Required | `onPageChange` is a Function. When event is triggerd it gives triggered page no. as a argument. |
+| `onPageChange`| Function | Required | `onPageChange` is a Function. When event is triggerd, it gives triggered page no. as an argument. |
 
 
 ## Props
