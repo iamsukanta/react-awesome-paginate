@@ -1,7 +1,7 @@
 {
   "name": "react-awesome-paginate",
   "version": "1.1.0",
-  "description": "React awesome paginate is a modern, typescript based pagination component. You can use it in your project.",
+  "description": "React awesome paginate is a modern, lightweight, typescript based pagination component. You can use it in your project very easily. There are some predefined theme you can use it, in your component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/types/Pagination.d.ts",
